@@ -1,0 +1,33 @@
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .profile-content {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .profile-text {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .profile-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
